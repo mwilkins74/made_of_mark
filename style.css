@@ -11,8 +11,37 @@ p {
     font-family: "Courier New";
     margin: 80px
 }
+
 h3 {
-    margin-left: 60px
+    position: absolute;
+    font-family: "Courier New";
+    left: 80px;
+    top: 170px;
+    ;
 }
-ul {margin-left: 60px
+
+div > h3 {
+    position: absolute;
+    top: 300px;
 }
+
+ul {
+    position: absolute;
+    font-family: "Courier New";
+    left: 80px;
+    top: 340px;
+
+}
+
+nav {
+    text-align: center;
+    margin-left: -20px;
+    font-family: "Courier New";
+    
+}
+button {
+    font-family: "Courier New";
+    border: 1px solid #000;
+
+}
+
