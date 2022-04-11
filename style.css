@@ -1,6 +1,21 @@
-body {
-    background: lightblue;
+html, body {
+    margin: 0;
+    padding: 0
 }
+
+body {
+    background-color: lightblue;
+}
+
+#profile {
+    position: absolute;
+    left: 40px;
+    max-width: 160px;
+    max-height: 160px;
+    top: 10px;
+    border-radius: 60%;
+}
+
 h1,
 h2 {
     text-align: center;
@@ -9,27 +24,27 @@ h2 {
 p {
     text-justify: center;
     font-family: "Courier New";
-    margin: 80px
+    margin: 90px
 }
 
 h3 {
     position: absolute;
     font-family: "Courier New";
     left: 80px;
-    top: 170px;
+    top: 180px;
     ;
 }
 
 div > h3 {
     position: absolute;
-    top: 300px;
+    top: 320px;
 }
 
 ul {
     position: absolute;
     font-family: "Courier New";
-    left: 80px;
-    top: 340px;
+    left: 130px;
+    top: 380px;
 
 }
 
@@ -37,11 +52,19 @@ nav {
     text-align: center;
     margin-left: -20px;
     font-family: "Courier New";
-    
+    background-color: lightslategray;
+    background-size: 100px;
 }
 button {
     font-family: "Courier New";
     border: 1px solid #000;
 
+}
+#wedding {
+    position: absolute;
+    max-width: 250px;
+    max-height: 350px;
+    margin-top: -50px;
+    right: 500px;
 }
 
