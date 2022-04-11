@@ -45,7 +45,6 @@ ul {
     font-family: "Courier New";
     left: 130px;
     top: 380px;
-
 }
 
 nav {
@@ -53,18 +52,26 @@ nav {
     margin-left: -20px;
     font-family: "Courier New";
     background-color: lightslategray;
-    background-size: 100px;
+    background-size: 00px;
 }
 button {
     font-family: "Courier New";
     border: 1px solid #000;
 
 }
-#wedding {
+#player {
     position: absolute;
-    max-width: 250px;
-    max-height: 350px;
-    margin-top: -50px;
-    right: 500px;
+    right: 250px;
 }
 
+footer {
+    position: absolute;
+    bottom: -50px;
+    font-family: "Courier New";
+}
+
+#email {
+    position: absolute;
+    bottom: 70px;
+    left: 90px;
+}
