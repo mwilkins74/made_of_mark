@@ -64,6 +64,10 @@ button {
     right: 250px;
 }
 
+.box {
+  color: red;
+}
+
 footer {
     position: absolute;
     bottom: -50px;
@@ -75,3 +79,12 @@ footer {
     bottom: 70px;
     left: 90px;
 }
+
+#wedding {
+  position: absolute;
+  max-width: 200px;
+  max-height: 250px;
+  left: 170px;
+  bottom: 80px;
+}
+
