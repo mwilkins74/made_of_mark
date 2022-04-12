@@ -65,9 +65,36 @@ button {
 }
 
 .box {
-  color: red;
+    color: red;
+    position: absolute;
+    font-size: x-large;
+    right: 450px;
+    bottom: 150px; 
 }
 
+#red {
+    position: absolute;
+    right: 600px;
+    bottom: 120px;
+    background-color: red;
+    color: white;
+
+}
+#blue {
+    position: absolute;
+    right: 530px;
+    bottom: 120px;
+    background-color: blue;
+    color: white;
+}
+
+#green {
+    position: absolute;
+    right: 450px;
+    bottom: 120px;
+    background-color: green;
+    color: white;
+}
 footer {
     position: absolute;
     bottom: -50px;
