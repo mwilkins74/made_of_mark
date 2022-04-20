@@ -4,7 +4,7 @@ html, body {
 }
 
 body {
-    background-color: lightblue;
+    background-color: grey;
 }
 
 #profile {
@@ -43,7 +43,7 @@ div > h3 {
 ul {
     position: absolute;
     font-family: "Courier New";
-    left: 130px;
+    left: 110px;
     top: 380px;
 }
 
@@ -51,8 +51,11 @@ nav {
     text-align: center;
     margin-left: -20px;
     font-family: "Courier New";
-    background-color: lightslategray;
+    background-color: white;
     background-size: 00px;
+    border: 100px;
+    font-weight: bolder;
+    border-width: 5px;
 }
 button {
     font-family: "Courier New";
