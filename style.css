@@ -86,6 +86,7 @@ button {
     bottom: 120px;
     background-color: blue;
     color: white;
+    font-style: italic;
 }
 
 #green {
@@ -114,4 +115,3 @@ footer {
   left: 170px;
   bottom: 80px;
 }
-
